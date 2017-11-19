@@ -11,7 +11,7 @@ https://www.microsoft.com/ja-jp/download/confirmation.aspx?id=35588
 Change the following in the script:
 + $Domain = "https://\<Domain\>-admin.sharepoint.com"
 + $Username = "\<SharePointAdminName\>@\<Domain\>"
-+ $OutputPath = "C:\<Wherever\>\permissions.csv"
++ $OutputPath = "C:\\<Wherever\>\permissions.csv"
 
 Copy the script and paste it on the PowerShell window.
 The output will be created in $OutputPath.
