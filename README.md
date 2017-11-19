@@ -8,10 +8,10 @@ This cmdlet creates a list of SharePoint Online site permission in csv format.
 This cmdlet requires "SharePoint Online Management Shell" which you can download from 
 https://www.microsoft.com/ja-jp/download/confirmation.aspx?id=35588
 
-Change the below in the script:
-+ $Domain = "https://<Domain>-admin.sharepoint.com"
-+ $Username = "<SharePointAdminName>@<Domain>"
-+ $OutputPath = "C:\<Wherever>\permissions.csv"
+Change the following in the script:
++ $Domain = "https://\<Domain\>-admin.sharepoint.com"
++ $Username = "\<SharePointAdminName\>@\<Domain\>"
++ $OutputPath = "C:\<Wherever\>\permissions.csv"
 
 Copy the script and paste it on the PowerShell window.
 The output will be created in $OutputPath.
