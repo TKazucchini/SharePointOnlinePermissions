@@ -1,4 +1,4 @@
-# SharePointOnlinePermissions
+# SharePoint Online Permission List Exporter
 To Manage SharePoint Online Site Permissions
 
 ## Purpose
