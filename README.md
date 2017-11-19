@@ -2,7 +2,7 @@
 To Manage SharePoint Online Site Permissions
 
 ## Purpose
-This cmdlet creates a list of SharePoint Online site permission in csv format.
+This cmdlet creates a list of SharePoint Online permissions in csv format, including "Site", "Admin", "spGroup", and "Users".
 
 ## Step to run
 This cmdlet requires "SharePoint Online Management Shell" which you can download from 
