@@ -4,11 +4,11 @@ Author: kazutak
 Created on: 2017/11/20
 Last Modified on: 2017/11/20
 Note: This cmdlet requires "SharePoint Online Management Shell"
-https://www.microsoft.com/ja-jp/download/confirmation.aspx?id=35588
+https://www.microsoft.com/en-us/download/confirmation.aspx?id=35588
 ########################################################################>
 
-$Domain = "https://<Domain>-admin.sharepoint.com"
-$Username = "<SharePointAdminName>@<Domain>"
+$Domain = "https://<DomainName>-admin.sharepoint.com"
+$Username = "<SharePointAdminName>@<EMailDomain>"
 $OutputPath = "C:\<Wherever>\permissions.csv"
 
 Connect-SPOService -Credential $Username -Url $Domain
@@ -27,7 +27,7 @@ foreach ($y in $x)
                 $Data.Admin = (($u | Select-Object -ExpandProperty LoginName) -join ' | ')
                 $Data.SpGroup = $b.Title
                 $Data.Users = (($b | Select-Object -ExpandProperty Users) -join ' | ')
-                Write-Host "Please Wait..."
+                Write-Host "Now Printing. Please Wait..."
                 $CustomObject += $Data
             }
     }
